@@ -1,0 +1,10 @@
+set tabstop=4
+set expandtab
+set nu
+set hlsearch
+set softtabstop=4
+set clipboard=unnamed
+set viminfo='1000,<800
+au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|els    e|exe "norm $"|endif|endif
+
+
