@@ -6,5 +6,5 @@ set softtabstop=4
 set clipboard=unnamed
 set viminfo='1000,<800
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
-
+" the owner of ~/.viminfo should be yourself for the info of the last operation stored in this file
 
